@@ -26,7 +26,6 @@ class Point3D{
 
 public class Workshop001 {
     
-    private static final int EXPONENT_TWO =2;
     public static void main(String... args) {
         int a ,b ,c = 0;
         a = c++;
@@ -44,7 +43,7 @@ public class Workshop001 {
      //   System.out.println(b);
       //  System.out.println(c);
        
-        int x1=2,x2=0,y1=1,y2=0,z1=3,z2=6;
+ 
         space3D Space3D = new space3D();
         Point3D startPoint = new Point3D(2,1,3);
         Point3D endPoint= new Point3D(0,0,6);
